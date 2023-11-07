@@ -71,6 +71,7 @@ export default {
           this.$store.commit('initAttempts', JSON.parse(localStorage.getItem("course_test_progress")))
         } else {
           localStorage.removeItem("course_test_progress")
+          this.$store.commit('initAttempts', null)
         }
       }
     }

@@ -15,7 +15,14 @@ export default new Vuex.Store({
       state.userData.uid = user;
     },
     initAttempts(state, progress) {
-      state.userData = progress
+      if (progress !== null) {
+        state.userData = progress
+      } else {
+        state.userData = {
+          attempts: [],
+          uid: null,
+        }
+      }
     },
     setAttempts(state, progress) {
       if (state.userData.attempts.length && state.userData.attempts.find((elem) => elem.unitId === progress.unitId)) {

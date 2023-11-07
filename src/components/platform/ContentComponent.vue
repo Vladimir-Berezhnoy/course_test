@@ -164,7 +164,9 @@ export default {
     },
     finishLesson() {
       this.isStart = false;
-      this.showSuccessNotification()
+      setTimeout(() => {
+        this.showSuccessNotification()
+      }, 500)
     },
     showSuccessNotification() {
       this.notificationMessage = "Congratulations! You passed the lesson!";
