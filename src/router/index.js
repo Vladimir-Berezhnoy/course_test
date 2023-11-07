@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ProfileView from '../views/ProfileView.vue'
 
 Vue.use(VueRouter)
 
@@ -11,12 +12,20 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/profile',
+    name: 'profile',
+    component: ProfileView,
+    children: [
+      { path: '?unit=:unitId', name: 'Unit', component: ProfileView },
+      { path: '?unit=:unitId&lesson=:lessonId', name: 'Lesson', component: ProfileView }
+    ],
+    beforeEnter: (to, from, next) => {
+      if (localStorage.getItem("course_test_uid") === null) {
+        next('/');
+      } else {
+        next();
+      }
+    }
   }
 ]
 

@@ -1,0 +1,29 @@
+{
+  "units": [
+    {
+      "unitId": 0,
+      "unitTitle": "Unit 1 title",
+      "unitDescription": "Unit 1 description",
+      "lessons": [
+        {
+          "lessonId": 0,
+          "lessonTitle": "Lesson 1",
+          "lessonDescription": "Lesson 1 description",
+          "lessonContent": "<h2>Fact 1:</h2><p>JavaScript is a high-level, versatile programming language commonly used for web development. It allows you to create interactive and dynamic web pages.</p><h2>Fact 2:</h2><p>JavaScript is not related to the Java programming language, despite its similar name. It was originally called 'LiveScript' but was renamed to 'JavaScript' for marketing reasons.</p><h2>Fact 3:</h2><p>JavaScript is primarily used in web browsers to add interactivity to websites. It allows you to respond to user actions, manipulate the Document Object Model (DOM), and make asynchronous requests to servers.</p><h2>Fact 4:</h2> <p>JavaScript is an interpreted language, which means it's executed directly by a web browser without the need for compilation. This makes it a versatile language for client-side scripting.</p><h2>Fact 5:</h2> <p>JavaScript is used not only in web development but also in various other environments, including server-side development (Node.js), mobile app development, and even in Internet of Things (IoT) devices.</p><h2>Fact 6:</h2> <p>ECMAScript is the standardized specification of JavaScript. Different browsers implement JavaScript based on these standards to ensure consistency and compatibility across the web. The latest version is ECMAScript 2021.</p><h2>Fact 7:</h2> <p>JavaScript has a wide ecosystem of libraries and frameworks, including popular ones like React, Angular, and Vue.js, which simplify the development of complex web applications.</p>"
+        },
+        {
+          "lessonId": 1,
+          "lessonTitle": "Lesson 2",
+          "lessonDescription": "Lesson 2 description",
+          "lessonContent": "<h2>Fact 8:</h2> <p>JavaScript has a rich set of built-in objects and functions, such as arrays, strings, and date objects, which make it powerful for manipulating data and performing various tasks.</p><h2>Fact 9:</h2> <p>JavaScript supports asynchronous programming using Promises and async/await, which is essential for tasks like making network requests without blocking the user interface.</p><h2>Fact 10:</h2> <p>JavaScript has a large and active developer community. You can find extensive documentation, tutorials, and forums to help you learn and solve problems while working with JavaScript.</p><h2>Fact 11:</h2> <p>JavaScript is case-sensitive, which means that variable names and function names must be written with consistent capitalization. For example, 'myVariable' and 'myvariable' are considered different in JavaScript.</p> <h2>Fact 12:</h2> <p>JavaScript can be used to create browser games and interactive animations. Libraries like Phaser and Three.js are popular choices for game development using JavaScript.</p> <h2>Fact 13:</h2> <p>JavaScript is not limited to browsers. It can also be used on the server side, thanks to technologies like Node.js. This allows for building fast and scalable server applications with JavaScript.</p>"
+        },
+        {
+          "lessonId": 2,
+          "lessonTitle": "Lesson 3",
+          "lessonDescription": "Lesson 3 description",
+          "lessonContent": "<h2>Fact 14:</h2> <p>JavaScript is the third part of the 'Web Development Trifecta,' which includes HTML for structure, CSS for styling, and JavaScript for interactivity. Together, they form the backbone of web development.</p><h2>Fact 15:</h2> <p>JavaScript is the most widely used programming language on the web. It's supported by all major web browsers, making it an essential skill for web developers.</p> <h2>Fact 16:</h2> <p>JavaScript can be used to build Progressive Web Apps (PWAs), which provide a native app-like experience in web browsers. PWAs work offline and offer features like push notifications.</p> <h2>Fact 17:</h2> <p>JavaScript is essential for web security. It's used to create mechanisms like Cross-Site Scripting (XSS) protection and Content Security Policy (CSP) to prevent malicious attacks.</p> <h2>Fact 18:</h2> <p>The JavaScript ecosystem includes package managers like npm and Yarn, which help developers manage and share code libraries. These tools are crucial for project dependencies.</p> <h2>Fact 19:</h2> <p>JavaScript is used for data visualization and charting. Libraries like D3.js and Chart.js enable developers to create interactive and informative charts on web pages.</p> <h2>Fact 20:</h2> <p>JavaScript has a strong job market. Web developers with expertise in JavaScript are in high demand, and it's considered a valuable skill for a wide range of tech-related careers.</p>"
+        }
+      ]
+    }
+  ]
+}
